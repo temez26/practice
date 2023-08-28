@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\temek\\source\\repos\\demo\\demo\\demo.csproj": {}
+    "C:\\Users\\temek\\Source\\Repos\\practice\\demo\\demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\temek\\source\\repos\\demo\\demo\\demo.csproj": {
+    "C:\\Users\\temek\\Source\\Repos\\practice\\demo\\demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\temek\\source\\repos\\demo\\demo\\demo.csproj",
+        "projectUniqueName": "C:\\Users\\temek\\Source\\Repos\\practice\\demo\\demo.csproj",
         "projectName": "demo",
-        "projectPath": "C:\\Users\\temek\\source\\repos\\demo\\demo\\demo.csproj",
+        "projectPath": "C:\\Users\\temek\\Source\\Repos\\practice\\demo\\demo.csproj",
         "packagesPath": "C:\\Users\\temek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\temek\\source\\repos\\demo\\demo\\obj\\",
+        "outputPath": "C:\\Users\\temek\\Source\\Repos\\practice\\demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
