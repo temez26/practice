@@ -17,6 +17,7 @@ html {
     min-height: 100%;
 }
 
+
 h1 {
     color: sandybrown;
 }
@@ -28,12 +29,14 @@ body {
 }
 
 .container1 {
+    
+  
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(../images/background.jpg);
     background-size: cover;
-    width: 500px;
-    height: 500px;
+    border-radius:4px;
+    width: 700px;
+    height: 700px;
 }
-
 
 
 p {
@@ -43,7 +46,53 @@ p {
 img {
     margin: 40px auto;
     display: block;
-    width: 300px;
-    height: 267px;
+    width:500px;
+    height: 390px;
     border: 1px solid black;
+    border-radius:4px;
+}
+
+
+@media (max-width: 768px) {
+    img {
+        width:400px;
+        height:300px;
+    }
+    .container1 {
+        width:600px;
+        height:550px;
+    }
+}
+@media (max-width: 500px) {
+    img {
+        width: 300px;
+        height: 267px;
+    }
+
+    .container1 {
+        width: 500px;
+        height: 480px;
+    }
+}
+@media (max-width: 380px) {
+    img {
+        width: 270px;
+        height: 230px;
+    }
+
+    .container1 {
+        width: 500px;
+        height: 430px;
+    }
+}
+@media (max-width: 337px) {
+    img {
+        width: 255px;
+        height: 220px;
+    }
+
+    .container1 {
+        width: 500px;
+        height: 400px;
+    }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nLrRb0Kk3DVRYxa440Axr9MrCAa55gxQ4WC+p7ck2Y49Ebtlxfv7DAD69d0/vSaYuYfh3WKycAHpjyAtq8eirg==",
+  "dgSpecHash": "5UjjNuBj/zVgwYbBiUc9cCxFc/6Hio8+CbVo1CE4SnZ98l7d6v1/LGwLWskl/PI7jtoZwQDphwehcUyBsN5OOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\temek\\Source\\Repos\\practice\\demo\\demo.csproj",
+  "projectFilePath": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\demo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

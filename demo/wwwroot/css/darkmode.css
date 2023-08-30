@@ -1,0 +1,71 @@
+﻿/* Default light mode styles */
+body {
+    min-height: 1000px; /* Adjust the min-height as needed */
+
+    background: rgb(0,173,208);
+    background: radial-gradient(circle, rgba(0,173,208,1) 0%, rgba(2,0,36,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+
+    /* Dark mode styles */
+    body.dark-mode {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+/* Dark mode toggle switch styles */
+#darkModeToggle {
+    appearance: none; /* Hide default appearance */
+    -webkit-appearance: none;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+    #darkModeToggle:checked {
+        background-color: #2196F3; /* Toggle switch color when checked */
+    }
+
+    #darkModeToggle::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #fff;
+        left: 2px;
+        top: 2px;
+        transition: transform 0.3s ease;
+    }
+
+    #darkModeToggle:checked::before {
+        transform: translateX(20px);
+    }
+
+
+#darkModeIcon {
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate the moon icon for dark mode */
+.dark-mode #darkModeIcon.fa-moon {
+    transform: rotate(180deg);
+}
+
+/* Content wrapper for showing/hiding content based on mode */
+#contentWrapper {
+    opacity: 0; /* Initially hide content */
+    transition: opacity 0.3s ease;
+}
+
+    #contentWrapper.content-shown {
+        opacity: 1;
+    }
