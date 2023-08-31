@@ -10,5 +10,6 @@ pohjoinen = north
 länsi = west
 itä = east
 etelä = south
-##To do 
+## To do 
 Add commands for english
+add manual to website
