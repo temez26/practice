@@ -10,7 +10,7 @@ function toggleDarkMode() {
         darkModeIcon.classList.add("fa-moon");
 
         // Change background gradient for dark mode
-        body.style.background = "linear-gradient(to bottom, #333333, #000024)";
+        body.style.background = "radial-gradient(circle, rgba(5,0,85,1) 0%, rgba(0,0,0,1) 88%)";
 
         saveModePreference("dark-mode");
     } else {
@@ -44,7 +44,7 @@ function applySavedMode() {
         darkModeIcon.classList.add("fa-moon");
 
         // Change background gradient for dark mode
-        body.style.background = "linear-gradient(to bottom, #333333, #000024)";
+        body.style.background = "radial-gradient(circle, rgba(5,0,85,1) 0%, rgba(0,0,0,1) 88%)";
     } else {
         // Enable light mode (default)
         body.classList.remove("dark-mode");

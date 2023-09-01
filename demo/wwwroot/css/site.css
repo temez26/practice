@@ -16,7 +16,16 @@ html {
     position: relative;
     min-height: 100%;
 }
-
+.navbar-nav .nav-link:hover {
+    color: white; 
+}
+.navbar-brand {
+    color:white;
+    font-size: 30px;
+}
+.nav-link {
+    color: lightgray
+}
 
 h1 {
     color: sandybrown;
