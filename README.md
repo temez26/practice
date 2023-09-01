@@ -11,5 +11,7 @@ länsi = west
 itä = east
 etelä = south
 ## To do 
-Add commands for english
-add manual to website
+
+### Add commands for english
+
+### Add manual to website Done
