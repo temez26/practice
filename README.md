@@ -12,6 +12,11 @@ itä = east
 etelä = south
 ## To do 
 
-### Add commands for english
+## Bugs
+The Change laguage link is not perfect it bugs out when changing sites inside website
 
-### Add manual to website Done
+### Add commands and manual for english 
+Done
+
+### Add manual to website 
+Done
