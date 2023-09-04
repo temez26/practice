@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jQleytn9fBLueV080DlS7uAMRMVfzddBTxmh25rj+dQ=",
+  "Hash": "7d7mk2TeIOVs2Ywmag8VtlMWZJgeM0GVSgRoSPYLtzI=",
   "Source": "demo",
   "BasePath": "_content/demo",
   "Mode": "Default",
@@ -389,6 +389,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\js\\site-english.js",
+      "SourceId": "demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\",
+      "BasePath": "_content/demo",
+      "RelativePath": "js/site-english.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site-english.js"
+    },
+    {
+      "Identity": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\js\\toggleLanguage.js",
+      "SourceId": "demo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\",
+      "BasePath": "_content/demo",
+      "RelativePath": "js/toggleLanguage.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\toggleLanguage.js"
     },
     {
       "Identity": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

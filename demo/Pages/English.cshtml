@@ -1,0 +1,44 @@
+﻿@page
+@model Index1Model
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-8 col-md-12">
+            <div class="text-center d-flex align-items-center justify-content-center vh-50">
+                <div class="container1" style="margin-top:10%;">
+                    <h1 class="display-4">Slay the Dragon</h1>
+                    <div class="container-inner">
+                        <img src="" alt="">
+                        <input id="input" type="text" placeholder="What do you want to do?">
+                        <button id="nappi">Answer</button>
+                        <p id="output"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+        <div class="col-lg-4 d-lg-block d-none">
+            <!-- Guide Div -->
+            <div class="guide text-white" style="margin-top:20%;">
+                <h2>Game Guide</h2>
+                <p>Welcome to the world of "Slay the Dragon"! In this game, you embark on an epic adventure to defeat a fearsome dragon that threatens the land.</p>
+                <p>Your goal is to interact with the game by typing commands into the input field above and pressing the "Vastaa" (Answer) button. Here are some example commands to get you started:</p>
+                <ul>
+                    <li>Move in the game with compass points pohjoinen = up, länsi = left, itä = right, etelä = down. </li>
+                    <li>you can pick up items with command poimi + item. example = poimi kivi (pickup rock). </li>
+                    <li>you can use items with command item + käytä. example käytä huilu (fulte use). </li>
+                    <li>"Search for weapons": Find sword to help you defeat the dragon.</li>
+                    <li>There is dog somewhere in the game. You can try to call it with command kutsu koira.</li>
+                </ul>
+                <p>Feel free to explore and experiment! Good luck on your quest to slay the dragon</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/js/site-english.js" asp-append-version="true"></script>

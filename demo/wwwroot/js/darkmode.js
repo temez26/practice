@@ -63,3 +63,7 @@ function applySavedMode() {
 
 // Apply the saved mode on page load
 applySavedMode();
+
+
+
+

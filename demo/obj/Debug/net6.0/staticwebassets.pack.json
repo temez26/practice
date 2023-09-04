@@ -81,8 +81,16 @@
       "PackagePath": "staticwebassets\\js\\darkmode.js"
     },
     {
+      "Id": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\js\\site-english.js",
+      "PackagePath": "staticwebassets\\js\\site-english.js"
+    },
+    {
       "Id": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\js\\toggleLanguage.js",
+      "PackagePath": "staticwebassets\\js\\toggleLanguage.js"
     },
     {
       "Id": "C:\\Users\\temek\\source\\repos\\web-game\\demo\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\temek\source\repos\web-game\demo
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/temek/source/repos/web-game/demo/Pages/English.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5nbGlzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/temek/source/repos/web-game/demo/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -16,8 +16,19 @@ html {
     position: relative;
     min-height: 100%;
 }
+.navbar-nav{
+    background-color: transparent; 
+    
+    transition: background-color 0.3s ease; 
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
 .navbar-nav .nav-link:hover {
-    color: white; 
+    color: white;
+    background-color: dimgrey;
+    border-radius:5%;
 }
 .navbar-brand {
     color:white;
@@ -36,6 +47,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 .container1 {
     
