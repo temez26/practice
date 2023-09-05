@@ -13,7 +13,8 @@ etelä = south
 ## To do 
 
 ## Bugs
-The Change laguage link is not perfect it bugs out when changing sites inside website
+The Change laguage link is not perfect it bugs out when changing sites inside website.
+The answer button wont work.
 
 ### Add commands and manual for english 
 Done
