@@ -14,7 +14,7 @@ etelä = south
 
 ## Bugs
 The Change laguage link is not perfect it bugs out when changing sites inside website.
-The answer button wont work.
+The answer button wont work. Fixed
 
 ### Add commands and manual for english 
 Done
