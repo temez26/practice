@@ -3,8 +3,10 @@
     "",
     "\\demo",
     "\\demo\\Pages",
-    "\\demo\\Pages\\Shared"
+    "\\demo\\Pages\\Shared",
+    "\\demo\\wwwroot",
+    "\\demo\\wwwroot\\js"
   ],
-  "SelectedNode": "\\demo.sln",
+  "SelectedNode": "\\demo\\wwwroot\\js\\toggleLanguage.js",
   "PreviewInSolutionExplorer": false
 }

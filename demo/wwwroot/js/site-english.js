@@ -54,7 +54,7 @@ let input = document.querySelector("#input");
 let image = document.querySelector("img");
 
 // Button
-let button = document.querySelector("button");
+let button = document.getElementById("nappi");
 button.style.cursor = "pointer";
 button.addEventListener("click", clickHandler, false);
 
@@ -65,13 +65,25 @@ function clickHandler() {
     console.log("Button clicked");
 }
 
-input.addEventListener("keypress", function (event) {
-    if (event.key === "Enter") {
-        event.preventDefault();
-        document.getElementById("nappi").click();
-        playGame();
-    }
-});
+// Check if the button element exists
+if (button) {
+    // Add a click event listener to the button
+    button.style.cursor = "pointer";
+    button.addEventListener("click", function () {
+        console.log("Nappia painettu");
+        playGame(); // Call playGame() when the button is clicked
+    });
+
+    // Add a keypress event listener to the document
+    document.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            playGame();
+        }
+    });
+} else {
+    console.error("Button with id 'nappi' not found");
+}
 
 function playGame() {
     // Read player's input and convert it to lowercase
